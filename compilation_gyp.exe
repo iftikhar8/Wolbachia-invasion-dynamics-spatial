@@ -1,0 +1,4 @@
+R_HOME=/system/software/linux-x86_64/R/3.3
+GSL_HOME=/system/software/linux-x86_64/lib/gsl/1.16
+icpc -I${R_HOME}/include -I${GSL_HOME}/include gyp_sim_spat.cpp -o gyp_sim_spat.exe  -L${R_HOME}/lib64 -lRmath -L${GSL_HOME}/lib -lgsl -lgslcblas
+
