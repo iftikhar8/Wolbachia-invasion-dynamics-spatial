@@ -7,6 +7,8 @@ Requires R (version 3.4) and GSL (version 1.15)
 
 To run gyp_sim use the command gyp_sim_spat.exe<gyp_sim_spat_inits.txt
 
+A movie of an example simulated spread is shown in spread_Cairns.mp4
+
 The file gyp_sim_spat_inits.txt contains the following inputs:
 
 Demog_params.txt (a file containing the input values of the density-independent daily adult mortality, the density-independent daily larval mortality, and the daily probability that an adult moves to a neighbouring subpopulation)
